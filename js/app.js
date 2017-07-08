@@ -1,5 +1,9 @@
-function GetFullName(firstName,middleName, lastName) {
-    return firstName + " " + middleName+" " + lastName;
+
+var space = " ";
+
+
+function GetFullName(f,m, l) {
+    return f+ space + m+space + l;
 }
 
-alert(GetFullName("Tin", "Leroy","Myera"));
+alert(GetFullName("Tin", "Leroys","Myera"));
